@@ -1,5 +1,5 @@
 
-# Four-in-a-Row — Real-Time Multiplayer Web Game
+# Four-in-a-Row Real-Time Multiplayer Web Game
 
 A real-time **4-in-a-Row (Connect Four)** web game built with **Go (Golang)** for the backend and **React (Vite)** for the frontend.  
 You can **play against your friends or challenge a smart bot**, with a persistent **Leaderboard** powered by MongoDB Atlas.
