@@ -70,10 +70,62 @@ Four-in-a-row/<br>
 
 ---
 
-## ⚙️ Local Setup Instructions
+##  Local Setup Instructions
 
-### 🖥️ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/samariium/four-in-a-row.git
 cd four-in-a-row
+```
+Backend Setup (GoLang)
+Navigate to Backend
+```bash
+cd go-backend
+```
+
+Create a .env file
+```bash
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.bhydljn.mongodb.net/?retryWrites=true&w=majority
+PORT=9090
+```
+
+Run the Backend
+```bash
+go run ./cmd/server
+```
+
+Test Health Endpoint
+```bash
+Visit → http://localhost:9090/health
+```
+
+Expected Output:
+```bash
+{"ok": true}
+```
+
+Frontend Setup (React + Vite)
+Navigate to Frontend
+```bash
+cd frontend
+```
+
+Create a .env file
+```bash
+VITE_BACKEND_URL=http://localhost:9090
+```
+
+Install Dependencies
+```bash
+npm install
+```
+
+Run Locally
+```bash
+npm run dev
+```
+
+Visit in Browser
+```bash
+http://localhost:5173
 ```
