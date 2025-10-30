@@ -9,7 +9,6 @@ You can **play against your friends or challenge a smart bot**, with a persisten
 ## Live Demo
 
 - **Frontend (Vercel):** https://four-in-a-row-neon.vercel.app/
-- **Backend (Render):** [https://fourinarow-backend.onrender.com](https://fourinarow-backend.onrender.com)
 - **Leaderboard API:** [https://fourinarow-backend.onrender.com/leaderboard](https://fourinarow-backend.onrender.com/leaderboard)
 
 > **Note:**  
