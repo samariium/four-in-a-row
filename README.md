@@ -8,7 +8,7 @@ You can **play against your friends or challenge a smart bot**, with a persisten
 
 ## Live Demo
 
-- **Frontend (Vercel):** [https://four-in-a-bdgrhaofn-samars-projects-920aa19d.vercel.app](https://four-in-a-bdgrhaofn-samars-projects-920aa19d.vercel.app)
+- **Frontend (Vercel):** (https://four-in-a-bdgrhaofn-samars-projects-920aa19d.vercel.app)
 - **Backend (Render):** [https://fourinarow-backend.onrender.com](https://fourinarow-backend.onrender.com)
 - **Leaderboard API:** [https://fourinarow-backend.onrender.com/leaderboard](https://fourinarow-backend.onrender.com/leaderboard)
 
