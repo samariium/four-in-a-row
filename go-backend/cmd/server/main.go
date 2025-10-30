@@ -26,7 +26,6 @@ func main() {
 
 	mgr := game.NewManager(mongoStore, cfg.MatchBotAfterMs, cfg.RejoinGraceMs, cfg.BotMoveDelayMs)
 
-	// HTTP mux
 	mux := http.NewServeMux()
 
 	// Health
