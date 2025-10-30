@@ -4,11 +4,17 @@ import axios from "axios";
 export default function Leaderboard() {
   const [players, setPlayers] = useState([]);
 
+  // ✅ Use environment variable for backend URL
+  const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:9090";
+
   useEffect(() => {
     axios
-      .get("http://localhost:9090/leaderboard")
+      .get(`${backendUrl}/leaderboard`)
       .then((res) => setPlayers(res.data))
-      .catch(() => setPlayers([]));
+      .catch((err) => {
+        console.error("Failed to load leaderboard:", err);
+        setPlayers([]);
+      });
   }, []);
 
   return (
