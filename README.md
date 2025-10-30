@@ -32,7 +32,7 @@ You can **play against your friends or challenge a smart bot**, with a persisten
 
 ---
 
-## 🕹️ Features
+## Features
 
 - **Play vs Bot** or **Play vs Friend**  
 - Real-time gameplay using WebSockets  
