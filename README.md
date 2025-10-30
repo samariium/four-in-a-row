@@ -66,31 +66,14 @@ Four-in-a-row/<br>
 
 ---
 
-## Local Setup Instructions
 
-### Clone the Repository
 
+---
+
+## ⚙️ Local Setup Instructions
+
+### 🖥️ Clone the Repository
+```bash
 git clone https://github.com/samariium/four-in-a-row.git
 cd four-in-a-row
-
-Backend Setup (GoLang)
-
-Navigate to backend:
-
-cd go-backend
-
-
-Create a .env file:
-
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.bhydljn.mongodb.net/?retryWrites=true&w=majority
-PORT=9090
-
-
-Run the backend:
-
-go run ./cmd/server
-
-
-Check it:
-
-http://localhost:9090/health
+```
