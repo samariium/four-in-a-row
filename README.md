@@ -47,24 +47,24 @@ You can **play against your friends or challenge a smart bot**, with a persisten
 
 ## 📂 Project Structure
 Four-in-a-row/
-├── frontend/ # React + Vite app
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ └── vite.config.js
-│
-├── go-backend/ # Go backend
-│ ├── cmd/server/main.go
-│ ├── internal/
-│ │ ├── game/
-│ │ ├── models/
-│ │ ├── store/
-│ │ ├── config/
-│ │ └── util/
-│ ├── go.mod
-│ └── go.sum
-│
-└── README.md
+├── frontend/ # React + Vite app<br>
+│ ├── src/<br>
+│ ├── public/<br>
+│ ├── package.json<br>
+│ └── vite.config.js<br>
+│<br>
+├── go-backend/ # Go backend<br>
+│ ├── cmd/server/main.go<br>
+│ ├── internal/<br>
+│ │ ├── game/<br>
+│ │ ├── models/<br>
+│ │ ├── store/<br>
+│ │ ├── config/<br>
+│ │ └── util/<br>
+│ ├── go.mod<br>
+│ └── go.sum<br>
+│<br>
+└── README.md<br>
 
 ---
 
