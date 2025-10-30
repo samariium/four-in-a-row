@@ -44,7 +44,7 @@ You can **play against your friends or challenge a smart bot**, with a persisten
 ---
 
 ## Project Structure
-Four-in-a-row/
+Four-in-a-row/<br>
 ├── frontend/ # React + Vite app<br>
 │ ├── src/<br>
 │ ├── public/<br>
